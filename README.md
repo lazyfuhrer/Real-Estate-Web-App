@@ -24,5 +24,5 @@ pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
 ## Resources
 1) https://nextjs.org/docs
 2) https://chakra-ui.com/getting-started
-3) https://rapidapi.com/apidojo/api/bayut?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel
+3) https://rapidapi.com/apidojo/api/bayut/
 8) https://vercel.com/docs/concepts/next.js/overview

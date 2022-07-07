@@ -1,12 +1,14 @@
 # Real Estate Web Application
 
+![rent](https://user-images.githubusercontent.com/64888892/177731775-a970ea86-8ff9-443e-a864-b02a16a21b10.PNG)
+
 ## Deployment
 Deployed the app using vercel at : https://real-estate-web-app-sable.vercel.app/
 
 ## Tech Stacks
 1) React.js, Next.js v12.1 (SSR)
 2) Chakra UI v2.2.1 (Responsive)
-3) Badyut API for property details
+3) Bayut API for property details
 
 ## Setup react app
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:

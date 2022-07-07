@@ -28,7 +28,7 @@ export const filterData = [
         { name: '85,000', value: '85000' },
       ],
       placeholder: 'Min Price(AED)',
-      queryName: 'minPrice',//new
+      queryName: 'minPrice',
     },
     {
       items: [

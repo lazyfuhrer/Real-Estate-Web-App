@@ -10,11 +10,19 @@ import DefaultImage from "../assets/images/house.jpg";
 
 const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, baths, area, agency, isVerified, externalID } }) => (
     // <Link href={`/property/${externalID}`} passHref>
-        <Flex flexWrap="wrap" w="420px" p="5" paddingTop="0" justifyContent="flex-start" cursor="pointer">
+        <Flex flexWrap="wrap" w="400px" 
+            // p="5" paddingTop="0" 
+            m="13px"
+            justifyContent="flex-start" cursor="pointer"
+            borderRadius="8px"
+            overflow="hidden"
+            border={"1px solid #e0e0e0"}
+            boxShadow="1px 1px 5px #00000028"
+        >
             <Box>
                 <Image src={coverPhoto ? coverPhoto.url : DefaultImage} width={400} height={260} alt="house"/>
             </Box>
-            <Box w="full">
+            <Box w="full" p="15px" pt="5px">
                 <Flex paddingTop="2" alignItems="center" justifyContent="space-between">
                     <Flex alignItems="center" >
                         <Box paddingRight="3" color="green.400">{isVerified && <GoVerified />}</Box>

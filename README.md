@@ -23,6 +23,9 @@ npm run dev
 3) https://rapidapi.com/apidojo/api/bayut/
 8) https://vercel.com/docs/concepts/next.js/overview
 
+## UI Prototype
+https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
+
 #
 
 # Create a Pull Request to Participate in Hacktoberfest 2022

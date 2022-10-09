@@ -32,14 +32,102 @@ https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
 ![hacktoberfest](https://user-images.githubusercontent.com/67837886/194604144-f81642db-691d-4504-97f5-a5e431efb698.png)
 [![Daily Visitors](https://visitor-badge.glitch.me/badge?page_id=SayanDeveloper.slider) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://github.com/SayanDeveloper/slider)
 
-## How to Contribute?
+# How to Contribute?
 
-1. **Add a Star to this Repository**
+<!-- 1. **Add a Star to this Repository**
 2. **Fork The Repo**
 3. **`git clone` The Repo**
 5. **Add/Modify/Replace What you want**
 6. **Create A Pull Request**
-7. **Explain what You Have Done in description**
+7. **Explain what You Have Done in description** -->
+
+### Add a Star to this Repository
+
+On the top right of the page, click on the star button to give the repo a star
+
+### Fork this repository
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+### Clone the repository
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "the copied url"
+```
+
+where "the copied url" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
+
+For example:
+
+```
+git clone https://github.com/name/Real-Estate-Web-App.git
+```
+
+where `name` is your GitHub username. Here you're copying the contents of the Real-Estate-Web-App repository on GitHub to your computer.
+
+### Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd Real-Estate-Web-App
+```
+
+Now create a branch using the `git checkout` command:
+
+```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b add-alonzo-branch
+```
+
+### Make necessary changes and commit those changes
+
+Now make the neccesary changes to the files
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add .
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "made some changes to file xyz"
+```
+### Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin -u your-branch-name
+```
+
+replacing `your-branch-name` with the name of the branch you created earlier.
+
+### Create a pull request on github and explain what You Have Done in description
+
+Open your github account and click on create pull request button at the top of the page. Then add a descriptive comment on the changes you've made .
+<details>
+
 
 ## What Contributions are accepcted?
 

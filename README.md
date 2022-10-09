@@ -29,7 +29,7 @@ npm run dev
 ![hacktoberfest](https://user-images.githubusercontent.com/67837886/194604144-f81642db-691d-4504-97f5-a5e431efb698.png)
 [![Daily Visitors](https://visitor-badge.glitch.me/badge?page_id=SayanDeveloper.slider) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://github.com/SayanDeveloper/slider)
 
-## How to Cotribute?
+## How to Contribute?
 
 1. **Add a Star to this Repository**
 2. **Fork The Repo**

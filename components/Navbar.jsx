@@ -3,14 +3,21 @@ import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } f
 import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
 import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { useColorMode } from '@chakra-ui/color-mode';
 
-const Navbar = () => (
+const Navbar = () => {
+    const { colorMode, toggleColorMode } = useColorMode();
+    return (
     <Flex p="2" borderBottom="1px" borderColor="gray.100">
         <Box fontSize="3xl" color="#F56565" fontWeight="bold">
             <Link href="/" paddingLeft="2">Magic Properties</Link>
         </Box>
         <Spacer/>
         <Box>
+            <IconButton mt={2} aria-label="Toggle Mode" onClick={toggleColorMode}>
+            { colorMode === 'light' ? <MoonIcon/> : <SunIcon/> }
+            </IconButton>
             <Menu>
                 <MenuButton as={IconButton} icon={<FcMenu/>} variant="outlined" color="red.400" />
                 <MenuList>
@@ -30,6 +37,7 @@ const Navbar = () => (
             </Menu>
         </Box>
     </Flex>
-);
+    )
+};
 
 export default Navbar;

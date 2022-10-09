@@ -2,6 +2,7 @@ import Router from 'next/router';
 import Head from "next/head";
 import NProgress from 'nprogress';
 import { ChakraProvider } from '@chakra-ui/react';
+import theme from '../theme.js';
 
 import Layout from '../components/Layout';
 
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
 
       </Head>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <Layout>
           <Component {...pageProps} />
         </Layout>

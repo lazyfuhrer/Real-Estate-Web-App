@@ -22,7 +22,7 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
             overflow="hidden"
             border={"1px solid #e0e0e0"}
             boxShadow="1px 1px 5px #00000028"
-            _hover={{transform: "scale(1.05)"}}
+            _hover={{transform: "scale(1.05)", transitionDuration: "150ms" }}
         >
             <Box>
                 <Image src={coverPhoto ? coverPhoto.url : DefaultImage} width={400} height={260} alt="house"/>

@@ -1,14 +1,27 @@
-# Real Estate Web Application
+<h1 align="center">Real Estate Web Application 📊 </h1>
 
-![newHeader](https://user-images.githubusercontent.com/36696204/194764921-c742ba36-ea77-4ba3-b631-f8139b651441.png)
+<br>
+<h2 align="center"> <b> Hacktober Fest 2022 Accepted! Create a Pull Request to Participate in Hacktoberfest 2022</b></h2>
 
-## Deployment
+[![Daily Visitors](https://visitor-badge.glitch.me/badge?page_id=SayanDeveloper.slider) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://github.com/SayanDeveloper/slider)
+
+
+![hacktoberfest](https://user-images.githubusercontent.com/67837886/194604144-f81642db-691d-4504-97f5-a5e431efb698.png)
+<br><br><br>
+
+<pre>
+<img src="https://user-images.githubusercontent.com/78292851/194765252-1c774801-d028-4f43-a875-5a826443c084.png" width="1000"> 
+</pre>
+
+
+## 🚀 Tech Stack:
+1) Next.js v12.1 (SSR) ![image](https://img.shields.io/badge/Next.js-14354C?style=for-the-badge&logo=Next.js&logoColor=white)&nbsp;&nbsp;
+2) Chakra UI v2.2.1 (Responsive) ![image](https://img.shields.io/badge/ChakraUI-150458?style=for-the-badge&logo=ChakraUI&logoColor=white)&nbsp;&nbsp;
+3) Bayut API for property details ![image](https://img.shields.io/badge/BayutAPI-342B029.svg?&style=for-the-badge&logo=bayutapi&logoColor=white)&nbsp;&nbsp;
+
+
+## 🔴 Model Deployment
 Deployed the app using vercel at : https://real-estate-web-app-sable.vercel.app/
-
-## Tech Stacks
-1) Next.js v12.1 (SSR)
-2) Chakra UI v2.2.1 (Responsive)
-3) Bayut API for property details
 
 ## To Run the app
 ```bash
@@ -26,11 +39,6 @@ npm run dev
 ## UI Prototype
 https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
 
-#
-
-# Create a Pull Request to Participate in Hacktoberfest 2022
-![hacktoberfest](https://user-images.githubusercontent.com/67837886/194604144-f81642db-691d-4504-97f5-a5e431efb698.png)
-[![Daily Visitors](https://visitor-badge.glitch.me/badge?page_id=SayanDeveloper.slider) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://github.com/SayanDeveloper/slider)
 
 ## How to Contribute?
 

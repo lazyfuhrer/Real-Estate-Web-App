@@ -1,6 +1,6 @@
 # Real Estate Web Application
 
-![rent](https://user-images.githubusercontent.com/64888892/177731775-a970ea86-8ff9-443e-a864-b02a16a21b10.PNG)
+![newHeader](https://user-images.githubusercontent.com/36696204/194764921-c742ba36-ea77-4ba3-b631-f8139b651441.png)
 
 ## Deployment
 Deployed the app using vercel at : https://real-estate-web-app-sable.vercel.app/

@@ -51,6 +51,6 @@ https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
 
 # <p align="center">Contributors </p>
 Here are our current contributors. Do some good work and join us here! :trophy:
- <p align="center"> 
+ 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=lazyfuhrer/Real-Estate-Web-App) 
- </p>
+ 

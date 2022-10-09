@@ -54,3 +54,9 @@ Here are our current contributors. Do some good work and join us here! :trophy:
  
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=lazyfuhrer/Real-Estate-Web-App) 
  
+ 1. [Biswarghya Biswas](https://github.com/lazyfuhrer)
+ 2. [Chin Zhie Lun](https://github.com/LunlunChin)
+ 3. [Shantanu Barui](https://github.com/codeMonger21)
+ 4. [Sayan Samanta](https://github.com/SayanDeveloper)
+ 5. [Smiti Oswal](https://github.com/smitioswal)
+

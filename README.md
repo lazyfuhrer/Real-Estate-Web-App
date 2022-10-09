@@ -41,7 +41,7 @@ https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
 6. **Create A Pull Request**
 7. **Explain what You Have Done in description**
 
-## What Contributions are accpected?
+## What Contributions are accepcted?
 
 1. **Changing the UI/Design**
 2. **Adding Some Functionality**
@@ -49,6 +49,14 @@ https://www.figma.com/file/bcjENQ7KYBOw13ARx0w2Cu/Magic-Properties?node-id=0%3A1
 
 <hr/>
 
-# <p align="center">Contributors
-
+# <p align="center">Contributors </p>
+Here are our current contributors. Do some good work and join us here! :trophy:
+ 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=lazyfuhrer/Real-Estate-Web-App) 
+ 
+ 1. [Biswarghya Biswas](https://github.com/lazyfuhrer)
+ 2. [Chin Zhie Lun](https://github.com/LunlunChin)
+ 3. [Shantanu Barui](https://github.com/codeMonger21)
+ 4. [Sayan Samanta](https://github.com/SayanDeveloper)
+ 5. [Smiti Oswal](https://github.com/smitioswal)
+

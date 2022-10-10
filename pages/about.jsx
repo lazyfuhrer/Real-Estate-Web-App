@@ -7,10 +7,10 @@ import AboutImage from "../assets/images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jp
 const About = () => {
   return (
     <Box as="section" p={4}>
-      <Heading as="h1" size="5xl" mb={5}>
+      <Heading as="h1" size="6xl" mb={5}>
         About Us
       </Heading>
-      <Box w={500} h={300}>
+      <Box w={200} h={200}>
         <Image src={AboutImage} alt="about" />
       </Box>
       <Text as="p" fontSize="2xl" >

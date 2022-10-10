@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
-import { FiKey } from "react-icons/fi";
+import { FiKey,FiUserCheck } from "react-icons/fi";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -55,6 +55,9 @@ const Navbar = () => {
 						</Link>
 						<Link href="/search?purpose=for-rent" passHref>
 							<MenuItem icon={<FiKey />}>Rent Property</MenuItem>
+						</Link>
+						<Link href="/search?purpose=about-us" passHref>
+							<MenuItem icon={<FiUserCheck />}>About Us</MenuItem>
 						</Link>
 					</MenuList>
 				</Menu>

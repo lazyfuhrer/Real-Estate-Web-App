@@ -2,18 +2,18 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "@chakra-ui/react";
 import Image from "next/image";
-import AboutImage from "../assets/images/aboutHome.jpg";
+import AboutImage from "../assets/images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg";
 
 const About = () => {
   return (
     <Box as="section" p={4}>
-      <Heading as="h1" size="4xl" mb={4}>
+      <Heading as="h1" size="6xl" mb={5}>
         About Us
       </Heading>
-      <Box w="100%" h="auto">
+      <Box w={200} h={200}>
         <Image src={AboutImage} alt="about" />
       </Box>
-      <Text as="p">
+      <Text as="p" fontSize="2xl" >
         Magic Properties is an Online platform to Buy or Rent top Properties in
         Dubai. It caters to a global market with its unique services and novel
         online features. The Magic Properties design is based on rigorous

@@ -5,7 +5,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Box, Flex, Text, Avatar } from "@chakra-ui/react";
-import { FaBed, FaBath } from "react-icons/fa";
+import { FaBed, FaBath, FaStar, FaStarHalfAlt} from "react-icons/fa";
+import {AiFillStar, AiOutlineStar} from "react-icons/ai"
 import { BsGridFill } from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import millify from "millify";
@@ -13,6 +14,7 @@ import millify from "millify";
 import DefaultImage from "../assets/images/house.jpg";
 
 const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, baths, area, agency, isVerified, externalID } }) => (
+  
     // <Link href={`/property/${externalID}`} passHref>
         <Flex flexWrap="wrap" w="400px" 
             // p="5" paddingTop="0" 
@@ -39,6 +41,14 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
                 </Flex>
                 <Flex alignItems="center" p="1" justifyContent="space-between" w="250px" color="blue.400">
                     {rooms} <FaBed/> | {baths} <FaBath/> | {millify(area)} sqft <BsGridFill/>
+                </Flex>
+                <Flex>
+                    <AiFillStar color="#f5e505" w={8} h={8}/>
+                    <AiFillStar color="#f5e505"/>
+                    <AiFillStar color="#f5e505"/>
+                    <AiFillStar color="#f5e505"/>
+                    { parseInt(millify(price).slice(0, -1)) > 10 ? <AiFillStar color="#f5e505"/> :
+                    <AiOutlineStar  color="#f5e505"/> }
                 </Flex>
                 <Text fontSize="lg" >
                     {title.length > 30 ? `${title.substring(0, 30)}...` : title}

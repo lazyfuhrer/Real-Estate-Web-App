@@ -23,10 +23,10 @@ const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Flex p="2" borderBottom="1px" borderColor="gray.100">
-      <Box fontSize="3xl" color="#F56565" fontWeight="bold">
-        <Stack direction="row">
+      <Box fontSize="2xl" color="#F56565" fontWeight="bold">
+        <Stack direction="row" alignItems='center'>
           <Image boxSize="42px" src={NewLogo.src} alt="logo" />
-          <Link href="/" paddingLeft="2">
+          <Link href="/" paddingLeft="2" fontSize>
             Magic Properties
           </Link>
         </Stack>

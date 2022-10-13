@@ -42,11 +42,12 @@ const Footer = () => (
         >
           biswasbiswarghya@gmail.com
         </Link>
-      <Flex justify='space-evenly'>
-      <a href="https://www.linkedin.com/in/biswarghya-biswas/"><FaLinkedin/></a>
-      <a href="https://github.com/lazyfuhrer/"><FaGithub/></a>
+      <Flex justify='start' style={{padding:"5px 0px 0 0"}}>
+        <a href="https://www.linkedin.com/in/biswarghya-biswas/" style={{padding:"0 20px 0 0"}}><FaLinkedin size={30}/></a>
+        <a href="https://github.com/lazyfuhrer/" style={{padding:"0 20px 0 0"}}><FaGithub size={30}/></a>
+        <Link href="https://github.com/lazyfuhrer"><CgProfile size={30}/></Link>
+        <Link href="https://github.com/lazyfuhrer" style={{padding:"2px 2px 0 1px"}}>My GitHub</Link>
       </Flex>
-      <Link href="https://github.com/lazyfuhrer/Real-Estate-Web-App">Repository</Link>
     </Flex>    
   </Stack>
   <Box textAlign="center" p="5" color="gray.600">

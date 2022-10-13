@@ -31,33 +31,33 @@ const Navbar = () => {
           </Link>
         </Stack>
       </Box>
-      <Spacer />
+      <Spacer/>
       <Box>
         <IconButton m="auto" aria-label="Toggle Mode" onClick={toggleColorMode}>
-          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+          {colorMode === "light" ? <MoonIcon/> : <SunIcon/>}
         </IconButton>
         <Menu>
           <MenuButton
             as={IconButton}
-            icon={<FcMenu />}
+            icon={<FcMenu/>}
             variant="outlined"
             color="red.400"
           />
           <MenuList>
             <Link href="/" passHref>
-              <MenuItem icon={<FcHome />}>Home</MenuItem>
+              <MenuItem icon={<FcHome/>}>Home</MenuItem>
             </Link>
             <Link href="/search" passHref>
-              <MenuItem icon={<BsSearch />}>Search</MenuItem>
+              <MenuItem icon={<BsSearch/>}>Search</MenuItem>
             </Link>
             <Link href="/search?purpose=for-sale" passHref>
-              <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
+              <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
             </Link>
             <Link href="/search?purpose=for-rent" passHref>
-              <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
+              <MenuItem icon={<FiKey/>}>Rent Property</MenuItem>
             </Link>
             <Link href="/about" passHref>
-              <MenuItem icon={<FiUserCheck />}>About Us</MenuItem>
+              <MenuItem icon={<FiUserCheck/>}>About Us</MenuItem>
             </Link>
           </MenuList>
         </Menu>

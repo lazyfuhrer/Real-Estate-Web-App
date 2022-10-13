@@ -43,9 +43,9 @@ const Footer = () => (
           biswasbiswarghya@gmail.com
         </Link>
       <Flex justify='start' pt='5px'>
-        <Link href="https://www.linkedin.com/in/biswarghya-biswas/" pr="20px"><FaLinkedin/></Link>
-        <Link href="https://github.com/lazyfuhrer/" pr="20px"><FaGithub/></Link>
-        <Link href="https://github.com/lazyfuhrer"><FaGithub/></Link>
+        <Link href="https://www.linkedin.com/in/biswarghya-biswas/" pr="20px"><FaLinkedin size={30}/></Link>
+        <Link href="https://github.com/lazyfuhrer/" pr="20px"><FaGithub size={30}/></Link>
+        <Link href="https://github.com/lazyfuhrer"><FaGithub size={30}/></Link>
         <Link href="https://github.com/lazyfuhrer" pt='2px' pr='2px' pl='1px'>My GitHub</Link>
       </Flex>
     </Flex>    

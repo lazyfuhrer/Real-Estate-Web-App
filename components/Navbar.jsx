@@ -44,19 +44,19 @@ const Navbar = () => {
             color="red.400"
           />
           <MenuList>
-            <Link href="/" passHref>
+            <Link href="/" passherf>
               <MenuItem icon={<FcHome/>}>Home</MenuItem>
             </Link>
-            <Link href="/search" passHref>
+            <Link href="/search" passherf>
               <MenuItem icon={<BsSearch/>}>Search</MenuItem>
             </Link>
-            <Link href="/search?purpose=for-sale" passHref>
+            <Link href="/search?purpose=for-sale" passherf>
               <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
             </Link>
-            <Link href="/search?purpose=for-rent" passHref>
+            <Link href="/search?purpose=for-rent" passherf>
               <MenuItem icon={<FiKey/>}>Rent Property</MenuItem>
             </Link>
-            <Link href="/about" passHref>
+            <Link href="/about" passherf>
               <MenuItem icon={<FiUserCheck/>}>About Us</MenuItem>
             </Link>
           </MenuList>

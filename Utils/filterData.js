@@ -128,6 +128,8 @@ export const filterData = [
         { name: 'Residential Plot', value: '14' },
         { name: 'Residential Floor', value: '12' },
         { name: 'Residential Building', value: '17' },
+        { name: 'Residential Land', value: '15' },
+        { name: 'Residential Villa', value: '13' },
       ],
       placeholder: 'Property Type',
       queryName: 'categoryExternalID',

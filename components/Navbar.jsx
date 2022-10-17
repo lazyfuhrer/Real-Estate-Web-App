@@ -12,7 +12,7 @@ import {
   Stack,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { FcHome, FcAbout } from "react-icons/fc";
+import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
 import { FiKey, FiUserCheck } from "react-icons/fi";
 

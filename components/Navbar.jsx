@@ -44,9 +44,6 @@ const Navbar = () => {
       </Box>
       <Spacer />
       <Box>
-        <IconButton m="auto" aria-label="Toggle Mode" onClick={toggleColorMode}>
-          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-        </IconButton>
         <Menu color={useColorModeValue("gray.200", "dark.400")}>
           <MenuButton as={IconButton} icon={<FcMenu />} variant="outlined" />
           <MenuList bg={useColorModeValue("gray.50", "dark.400")}>

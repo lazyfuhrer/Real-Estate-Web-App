@@ -13,20 +13,21 @@ const Search = ({ properties }) => {
   const router = useRouter();
 
   // color modes for light/ dark
-  const searchbg = useColorModeValue("gray.100", "gray.700");
+  const searchbg = useColorModeValue("gray.100", "dark.600");
   return (
     <Box>
       <Flex
         cursor="pointer"
         bg={searchbg}
         borderBottom="1px"
-        borderColor="gray.200"
+        borderColor={useColorModeValue("gray.200", "dark.400")}
         p="2"
         fontWeight="black"
         fontSize="lg"
         justifyContent="center"
         alignItems="center"
-        onClick={() => setSearchFilters((prevFilters) => !prevFilters)}>
+        onClick={() => setSearchFilters((prevFilters) => !prevFilters)}
+      >
         <Text>Search properties by filters</Text>
         <Icon paddingLeft="2" w="7" as={BsFilter} />
       </Flex>
@@ -45,7 +46,8 @@ const Search = ({ properties }) => {
           alignItems="center"
           flexDirection="column"
           marginTop="5"
-          marginBottom="5">
+          marginBottom="5"
+        >
           <Image alt="no result" src={noresult} />
           <Text fontSize="2xl" marginTop="3">
             No Results Found :(

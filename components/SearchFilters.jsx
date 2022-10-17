@@ -30,7 +30,7 @@ export default function SearchFilters() {
   const router = useRouter();
 
   // color modes for light/ dark
-  const searchbg = useColorModeValue("gray.100", "gray.700");
+  const searchbg = useColorModeValue("gray.100", "dark.600");
   const inputcolor = useColorModeValue("gray.800", "gray.200");
   const searchProperties = (filterValues) => {
     setLoading((state) => true);
@@ -118,6 +118,7 @@ export default function SearchFilters() {
       <Flex
         width="100%"
         borderTop="0.5px lightgray solid"
+        borderColor={useColorModeValue("gray.200", "dark.400")}
         justifyContent="center"
         wrap="wrap"
         paddingY={5}>

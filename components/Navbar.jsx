@@ -10,6 +10,7 @@ import {
   Spacer,
   Image,
   Stack,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
@@ -22,42 +23,41 @@ import NewLogo from "../assets/images/newLogoNoBg.png";
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <Flex p="2" borderBottom="1px" borderColor="gray.100">
+    <Flex
+      p="2"
+      borderBottom="1px"
+      borderColor={useColorModeValue("gray.200", "dark.400")}
+    >
       <Box fontSize="2xl" color="#F56565" fontWeight="bold">
-        <Stack direction="row" alignItems='center'>
+        <Stack direction="row" alignItems="center">
           <Image boxSize="42px" src={NewLogo.src} alt="logo" />
           <Link href="/" paddingLeft="2" fontSize>
             Magic Properties
           </Link>
         </Stack>
       </Box>
-      <Spacer/>
+      <Spacer />
       <Box>
         <IconButton m="auto" aria-label="Toggle Mode" onClick={toggleColorMode}>
-          {colorMode === "light" ? <MoonIcon/> : <SunIcon/>}
+          {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
         </IconButton>
-        <Menu>
-          <MenuButton
-            as={IconButton}
-            icon={<FcMenu/>}
-            variant="outlined"
-            color="red.400"
-          />
-          <MenuList>
-            <Link href="/" passherf>
-              <MenuItem icon={<FcHome/>}>Home</MenuItem>
+        <Menu color={useColorModeValue("gray.200", "dark.400")}>
+          <MenuButton as={IconButton} icon={<FcMenu />} variant="outlined" />
+          <MenuList bg={useColorModeValue("gray.50", "dark.400")}>
+            <Link href="/">
+              <MenuItem icon={<FcHome />}>Home</MenuItem>
             </Link>
-            <Link href="/search" passherf>
-              <MenuItem icon={<BsSearch/>}>Search</MenuItem>
+            <Link href="/search">
+              <MenuItem icon={<BsSearch />}>Search</MenuItem>
             </Link>
-            <Link href="/search?purpose=for-sale" passherf>
-              <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
+            <Link href="/search?purpose=for-sale">
+              <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
             </Link>
-            <Link href="/search?purpose=for-rent" passherf>
-              <MenuItem icon={<FiKey/>}>Rent Property</MenuItem>
+            <Link href="/search?purpose=for-rent">
+              <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
             </Link>
-            <Link href="/about" passherf>
-              <MenuItem icon={<FiUserCheck/>}>About Us</MenuItem>
+            <Link href="/about">
+              <MenuItem icon={<FiUserCheck />}>About Us</MenuItem>
             </Link>
           </MenuList>
         </Menu>

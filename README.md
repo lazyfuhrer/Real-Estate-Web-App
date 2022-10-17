@@ -136,7 +136,7 @@ replacing `your-branch-name` with the name of the branch you created earlier.
 Open your github account and click on create pull request button at the top of the page. Then add a descriptive comment on the changes you've made .
 
 
-Please make the Pull Request in `test-1` branch. Not in the main.
+Please make the Pull Request in `test-1` branch. Not in the `main`.
 
 <details>
 

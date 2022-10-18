@@ -12,7 +12,6 @@ const about = () => {
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
-      height="100vh"
       display="flex"
       flexDirection="column"
     >

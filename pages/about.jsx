@@ -2,6 +2,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import { Button } from '@chakra-ui/react';
 import Image from "next/image";
+import Link from 'next/link';
 import HomeIcon from "../assets/images/home-icon.svg";
 
 const about = () => {
@@ -27,7 +28,7 @@ const about = () => {
           About Us
         </Heading>
         <Text as="p" fontSize="16px" textAlign="center">
-          This is a real estate web application created using NextJS and ChakraUI Free free to check out our github at https://github.com/lazyfuhrer/Real-Estate-Web-App
+          This is a real estate web application created using NextJS and ChakraUI. Feel free to check out our <Link href="https://github.com/lazyfuhrer/Real-Estate-Web-App">GitHub</Link>
         </Text>
 
 

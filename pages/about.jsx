@@ -26,7 +26,7 @@ const about = () => {
           About Us
         </Heading>
         <Text as="p" fontSize="16px" textAlign="center">
-          This is a real estate web application created using NextJS and ChakraUI. Feel free to check out our <Link href="https://github.com/lazyfuhrer/Real-Estate-Web-App" passHref>GitHub</Link>.
+          This is a real estate web application created using NextJS and ChakraUI. Feel free to check out our <Link href="https://github.com/lazyfuhrer/Real-Estate-Web-App">GitHub</Link>.
         </Text>
 
 

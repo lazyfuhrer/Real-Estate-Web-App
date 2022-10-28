@@ -30,8 +30,7 @@ const Navbar = () => {
       <Box
         fontSize={["lg", "xl", "xl", "2xl"]}
         color="#F56565"
-        fontWeight="bold"
-      >
+        fontWeight="bold">
         <Stack direction="row" alignItems="center">
           <Image boxSize="42px" src={NewLogo.src} alt="logo" />
           <Link href="/" paddingLeft="2">
@@ -61,20 +60,18 @@ const Navbar = () => {
                 variant="outlined"
                 color="red.400"
               />
-              <MenuList>
+              <MenuList padding={0} margin={0}>
                 <Link href="/" passHref>
                   <MenuItem
                     icon={<FcHome />}
-                    backgroundColor={router.asPath === "/" && "#99accb"}
-                  >
+                    backgroundColor={router.asPath === "/" && "#99accb"}>
                     Home
                   </MenuItem>
                 </Link>
                 <Link href="/search" passHref>
                   <MenuItem
                     icon={<BsSearch />}
-                    backgroundColor={router.asPath === "/search" && "#99accb"}
-                  >
+                    backgroundColor={router.asPath === "/search" && "#99accb"}>
                     Search
                   </MenuItem>
                 </Link>
@@ -82,10 +79,8 @@ const Navbar = () => {
                   <MenuItem
                     icon={<FcAbout />}
                     backgroundColor={
-                      router.asPath === "/search?purpose=for-sale" &&
-                      "#99accb"
-                    }
-                  >
+                      router.asPath === "/search?purpose=for-sale" && "#99accb"
+                    }>
                     Buy Property
                   </MenuItem>
                 </Link>
@@ -93,31 +88,31 @@ const Navbar = () => {
                   <MenuItem
                     icon={<FiKey />}
                     backgroundColor={
-                      router.asPath === "/search?purpose=for-rent" &&
-                      "#99accb"
-                    }
-                  >
+                      router.asPath === "/search?purpose=for-rent" && "#99accb"
+                    }>
                     Rent Property
                   </MenuItem>
                 </Link>
                 <Link href="/about" passHref>
                   <MenuItem
                     icon={<FiUserCheck />}
-                    backgroundColor={router.asPath === "/about" && "#99accb"}
-                  >
+                    backgroundColor={router.asPath === "/about" && "#99accb"}>
                     About Us
                   </MenuItem>
                 </Link>
-                <IconButton
-                  width="100%"
-                  alignSelf={"center"}
-                  bg="none"
-                  m="auto"
-                  aria-label="Toggle Mode"
-                  onClick={toggleColorMode}
-                >
-                  {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-                </IconButton>
+                <MenuItem>
+                  <IconButton
+                    width="100%"
+                    alignSelf={"center"}
+                    _hover={{ backgroundColor: "transparent" }}
+                    bg="transparent"
+                    height={6}
+                    m="auto"
+                    aria-label="Toggle Mode"
+                    onClick={toggleColorMode}>
+                    {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+                  </IconButton>
+                </MenuItem>
               </MenuList>
             </Fragment>
           )}

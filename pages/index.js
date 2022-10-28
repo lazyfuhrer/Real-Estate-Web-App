@@ -1,6 +1,13 @@
 import Link from "next/link";
 // import Image from "next/image";
-import { Flex, Box, Text, Button, Image } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Text,
+  Button,
+  Image,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
 import Property from "../components/Property";
 import { baseUrl, fetchApi } from "../Utils/fetchApi";
@@ -41,7 +48,10 @@ const Banner = ({
         <br />
         {desc2}
       </Text>
-      <Button fontSize="xl">
+      <Button
+        fontSize="xl"
+        backgroundColor={useColorModeValue("red.200", "red.400")}
+        _hover={{ backgroundColor: useColorModeValue("red.100", "red.600") }}>
         <Link href={linkName}>{buttonText}</Link>
       </Button>
     </Box>
